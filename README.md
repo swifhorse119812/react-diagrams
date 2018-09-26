@@ -38,7 +38,8 @@ After running `yarn install` you must then run:  `yarn run storybook`
 
 #### Building from source
 
-Simply run `webpack` in the root directory \(or `export NODE_ENV=production && webpack` if you want a production build\) and it will spit out the transpiled code and typescript definitions into the dist directory as a single file.   
+Simply run `webpack` in the root directory \(or `export NODE_ENV=production && webpack` if you want a production build\) and it will spit out the transpiled code and typescript definitions into the dist directory as a single file. 
+
 We use webpack for this because TSC cannot compile a single UMD file \(TSC can currently only output multiple UMD files\).
 
 ## [Checkout the docs](https://projectstorm.gitbooks.io/react-diagrams)
